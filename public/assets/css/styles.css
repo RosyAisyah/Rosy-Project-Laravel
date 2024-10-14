@@ -1,0 +1,203 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9f5f0; /* Warna latar belakang lembut */
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #009688; /* Warna teal yang segar */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #00796b; /* Gelap sedikit saat hover */
+    border-radius: 4px;
+}
+
+#home {
+    margin-top: 60px;
+    background-image: url("tea-field.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+    color: #ffffff; /* Putih cerah untuk teks */
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.hero-button {
+    background-color: #ff5722; /* Oranye cerah */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+    background-color: #e64a19; /* Gelap sedikit saat hover */
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#about {
+    background-color: #ffffff; /* Latar belakang putih untuk kontras */
+    color: #555; /* Abu-abu gelap untuk teks */
+    border-bottom: 2px solid #009688; /* Garis teal untuk pemisah */
+}
+
+#about p {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+#products {
+    background-color: #f3f3f3; /* Abu-abu terang untuk latar belakang */
+}
+
+.product-item {
+    display: inline-block;
+    margin: 20px;
+    width: 250px;
+    text-align: left;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.product-item h3 {
+    color: #009688; /* Warna teal untuk judul produk */
+}
+
+.buy-button {
+    background-color: #4caf50; /* Hijau segar */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+    border-radius: 4px;
+}
+
+.buy-button:hover {
+    background-color: #388e3c; /* Gelap sedikit saat hover */
+}
+
+#contact {
+    background-color: #ffffff;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #009688; /* Warna teal saat fokus */
+    outline: none;
+}
+
+form button {
+    background-color: #009688; /* Warna teal */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: #00796b; /* Gelap sedikit saat hover */
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
