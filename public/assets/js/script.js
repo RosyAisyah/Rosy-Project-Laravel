@@ -1,18 +1,24 @@
-document
-    .getElementById("LoginForm")
-    .addEventListener("submit", function (event) {
-        event.preventDefault();
+document.addEventListener("DOMContentLoaded", function () {
+    const loginButton = document.querySelector("button");
+    const usernameInput = document.getElementById("username");
+    const passwordInput = document.getElementById("password");
 
-        const correctUsername = "rosy";
-        const correctPassword = "rosy";
+    loginButton.addEventListener("click", function () {
+        const username = usernameInput.value.trim();
+        const password = passwordInput.value.trim();
 
-        const username = document.getElementById("username").value;
-        const password = document.getElementById("password").value;
-
-        if (username === correctUsername && password === correctPassword) {
-            alert("login berhasil");
-            window.location.href = "index.html";
+        // Validasi input
+        if (username === "" || password === "") {
+            alert("Username dan password tidak boleh kosong!");
         } else {
-            alert("salah bro");
+            // Simulasi login sukses (untuk demo)
+            if (username === "rosy" && password === "rosy") {
+                alert("Login berhasil!");
+                // Pindah ke halaman index.html setelah login berhasil
+                window.location.href = "/";
+            } else {
+                alert("Username atau password salah!");
+            }
         }
     });
+});

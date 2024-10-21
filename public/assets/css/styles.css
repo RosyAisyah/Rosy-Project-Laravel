@@ -2,7 +2,7 @@ body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e9f5f0; /* Warna latar belakang lembut */
+    background-color: #fdfefe; /* Warna latar belakang lembut */
     color: #333;
     line-height: 1.6;
 }
@@ -87,7 +87,7 @@ section {
 }
 
 #about {
-    background-color: #ffffff; /* Latar belakang putih untuk kontras */
+    background-color: #fdfffe; /* Warna latar belakang lembut */
     color: #555; /* Abu-abu gelap untuk teks */
     border-bottom: 2px solid #009688; /* Garis teal untuk pemisah */
 }
