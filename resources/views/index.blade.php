@@ -11,7 +11,7 @@
   <header class="bg-teal-600 text-white py-6 text-center">
     <nav class="flex justify-center mt-4">
       <a href="#" class="mx-4 hover:bg-teal-700 py-2 px-4 rounded">Home</a>
-      <a href="#" class="mx-4 hover:bg-teal-700 py-2 px-4 rounded">About</a>
+      <a href="{{ route('about') }}" class="mx-4 hover:bg-teal-700 py-2 px-4 rounded">About</a>
       <a href="#" class="mx-4 hover:bg-teal-700 py-2 px-4 rounded">Products</a>
       <a href="#" class="mx-4 hover:bg-teal-700 py-2 px-4 rounded">Contact</a>
     </nav>
